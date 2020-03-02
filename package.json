@@ -16,6 +16,6 @@
     "test": "echo \"Error: no tedt\" && exit 1",
     "build": "webpack",
     "run-prod": "webpack && serve dist",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server ; (sleep 5; open http://localhost:1337)"
   }
 }
