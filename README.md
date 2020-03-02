@@ -2,13 +2,18 @@
 *ANother Devlib to Revolutionize Easy Webdevelopment*
 
 
-** Build **
+**Build**
+
 `yarn build`
 
-** Run **
+**Run**
+
 *Builds and run a production build (/dist)*
+
 `yarn run-prod`
 
-** Start **
+**Start**
+
 *Starts webpack-dev-server*
+
 `yarn start`
