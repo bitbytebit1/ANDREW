@@ -1,0 +1,21 @@
+{
+  "name": "andrew",
+  "version": "1.0.0",
+  "description": "ANother Devlib to Revolutionize Easy Webdevelopment",
+  "author": "Anders Andersson",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no tedt\" && exit 1",
+    "build": "webpack",
+    "run-prod": "webpack && serve dist",
+    "start": "webpack-dev-server"
+  }
+}
